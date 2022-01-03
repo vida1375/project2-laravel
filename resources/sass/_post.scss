@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 768px) {
+  .comments-item .col-sm-10 {
+  	padding-right: 0;
+  }
+}
+.news-item > div.col-xs-3 {
+	padding-left: 0;
+}
+.news-item h1 {
+	font-size: 14pt;
+	margin-top: 0;
+	font-family: 'nassim-bold',Arial;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+.news-item .details {
+	color: #999;
+	font-size: 9pt;
+}
+.news-item .details>div {
+	display: inline-block;
+	margin-left: 5px;
+}
+.news-item .details a {
+	color: #999;
+}
+.news-item .details a:hover, .news-item .details a:focus, .news-item .details a:active {
+	text-decoration: underline;
+}
+.news-item .details .glyphicon {
+	color: #bbb;
+}
+.news-item .content {
+	margin: 20px 0;
+}
+.news-item .content p {
+	text-align: justify;
+}
+.news-item .content img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+.news-item .details .avatar {
+height: 12px;
+width: 12px;
+margin-top: -2px;
+}
+.comments-item {
+margin:10px 0 !important;padding: 10px;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)
+}
+.comments-item .control-label {
+	font-family: nassim-bold;
+	color: #004798;
+}
+#new-comment-content {
+	resize: none;
+	max-height: 300px;
+}
+.comments-item > div.col-xs-1 {
+	padding: 0;
+}
+.comments-item .author {
+        font-family: 'nassim-bold';
+        font-size: 12pt;
+}
+.comments-item .details {
+	margin-left: -15px;
+	color: #999;
+	font-size: 9pt;
+	direction: ltr;
+}
+.comments-item .details .glyphicon {
+	color: #bbb;
+}
+.comments-item .content {
+	margin: 5px 0 15px;
+	text-align: justify;
+}
+.comments-item .content img, .comments-item .quote img, #quote img {
+	max-width: 100% !important;
+	height: auto;
+	margin: auto;
+}
+.comments-item .actions {
+	margin-left: -15px;
+	text-align: left;
+}
+.comments-item .dropdown-menu {
+	font-size: 12px;
+}
+.comments-item.c2 {
+	background-color: #FFC;
+}
+.comments-item span[id^="gnext"] {
+	display: none;
+	color: green;
+}
+.comments-item span[id^="pnext"] {
+	display: none;
+	color: red;
+}
